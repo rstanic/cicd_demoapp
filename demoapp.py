@@ -16,7 +16,6 @@ class HelloUniverse(Resource):
         text = "Hello Universe!"
         return text
 
-
 api.add_resource(HelloWorld, '/hello/world')
 
 if __name__ == '__main__':
